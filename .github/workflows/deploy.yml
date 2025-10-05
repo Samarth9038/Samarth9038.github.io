@@ -29,10 +29,10 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
-      - name: 23f2005273@ds.study.iitm.ac.in
-        run: echo "Hello, world!"
       - name: Checkout
         uses: actions/checkout@v4
+      - name: 23f2005273@ds.study.iitm.ac.in
+        run: echo "Hello, world!"
       - name: Setup Pages
         uses: actions/configure-pages@v4
       - name: Upload artifact
@@ -43,3 +43,4 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
