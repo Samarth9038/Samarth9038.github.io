@@ -31,7 +31,7 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      - name: 23f2005273@ds.study.iitm.ac.in
+      - name: Step for 23f2005273@ds.study.iitm.ac.in
         run: echo "Hello, world!"
       - name: Setup Pages
         uses: actions/configure-pages@v4
